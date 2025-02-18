@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Navbar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <nav>
+        <div class="left-section">
+            <a href="#" class="logo">Spotify</a>
+        </div>
+
+        <div class="center-section">
+            <i class="fa-solid fa-house home-icon"></i>
+            <input type="text" class="search-bar" placeholder="What do you want to play?">
+        </div>
+
+        <div class="right-section">
+            <a href="#"><i class="fa-solid fa-arrow-down"></i>Install App</a>
+            <a href="#">Sign Up</a>
+            <button class="login-btn">Login</button>
+        </div>
+    </nav>
+
+    <div class="sidebar">
+        <div class="library-header">Your Library</div>
+
+        <div class="create-playlist">
+            <div class="create-playlist-text">
+                Create your first playlist
+                <h6>It's easy, we'll help you</h6>
+            </div>
+            <button class="create-btn">Create Playlist</button>
+        </div>
+
+        <div class="sidebar-footer">
+            <div class="footer-links">
+                <!-- First Row - 4 Links -->
+                <div class="link-row">
+                    <a href="#">Legal</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Cookies</a>
+                    <a href="#">About Ads</a>
+                </div>
+
+                <!-- Second Row - 2 Links -->
+                <div class="link-row">
+                    <a href="#">Accessibility</a>
+                    <a href="#">Notice at Collection</a>
+                </div>
+
+                <!-- Third Row - Cookies -->
+                <div class="link-row">
+                    <a href="#">Cookies</a>
+                </div>
+
+                <!-- Language Button -->
+                <button class="language-btn">
+                    <i class="fas fa-globe"></i> English
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <h2 style="color: white; margin-bottom: 30px; background:#121212; font-size: 24px; font-weight: 800;">Popular artists</h2>
+        <div class="popular-artists">
+            <!-- Artist 1 -->
+            <div class="artist-card">
+                <img src="https://i.scdn.co/image/ab6761610000e5ebcb6926f44f620555ba444fca" class="artist-img">
+                <div class="artist-name">Pritam</div>
+                <div class="artist-label">Artist</div>
+            </div>
+            
+            <!-- Add 4 more artists with same structure -->
+            <!-- Artist 2 -->
+            <div class="artist-card">
+                <img src="https://i.scdn.co/image/ab6761610000e5eb7aa689cd7ca136098b26c20d" class="artist-img">
+                <div class="artist-name">Karan Aujla</div>
+                <div class="artist-label">Artist</div>
+            </div>
+
+            <!-- Artist 3 -->
+            <div class="artist-card">
+                <img src="https://i.scdn.co/image/ab6761610000e5ebc40600e02356cc86f0debe84" class="artist-img">
+                <div class="artist-name">Atif Aslam</div>
+                <div class="artist-label">Artist</div>
+            </div>
+
+            <!-- Artist 4 -->
+            <div class="artist-card">
+                <img src="https://i.scdn.co/image/ab6761610000e5eb5ba2d75eb08a2d672f9b69b7" class="artist-img">
+                <div class="artist-name">Arijit Singh</div>
+                <div class="artist-label">Artist</div>
+            </div>
+
+            <!-- Artist 5 -->
+            <div class="artist-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJI_4vK6CeyUJE1a__SBgRRBLPXUw8ZvkIwQ&s" class="artist-img">
+                <div class="artist-name">Diljit Dosanjh </div>
+                <div class="artist-label">Artist</div>
+            </div>
+        </div>
+
+        <h2 style="color: white; margin-bottom: 30px; background:#121212; font-size: 24px; font-weight: 800; padding-top: 15px;">Popular albums and singles</h2>
+        <div class="popular-albums">
+            <!-- Artist 1 -->
+            <div class="albums-card">
+                <img src="https://i.scdn.co/image/ab67616d0000b273e46e7c9f477b2bc0c41688c8" class="albums-img">
+                <div class="artist-name">Pritam</div>
+                <div class="artist-label">Artist</div>
+            </div>
+            
+            <!-- Add 4 more artists with same structure -->
+            <!-- Artist 2 -->
+            <div class="artist-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdFrpRDE5AyZqWvS_i5FCH5giHLZzb0Ipi7g&s" class="albums-img">
+                <div class="artist-name">Karan Aujla</div>
+                <div class="artist-label">Artist</div>
+            </div>
+
+            <!-- Artist 3 -->
+            <div class="artist-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy_uPWqQGXCxHf9U863R0IOulpj9djLfrksg&s" class="albums-img">
+                <div class="artist-name">Atif Aslam</div>
+                <div class="artist-label">Artist</div>
+            </div>
+
+            <!-- Artist 4 -->
+            <div class="artist-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYidoH9llP1jhxPmZDfVoA2dv6Dk9DeoU21A&s" class="albums-img">
+                <div class="artist-name">Arijit Singh</div>
+                <div class="artist-label">Artist</div>
+            </div>
+
+            <!-- Artist 5 -->
+            <div class="artist-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_lFGalUsSRKgP3wGVxljRV12O-oMkLmZS6Q&s" class="albums-img">
+                <div class="artist-name">Diljit Dosanjh </div>
+                <div class="artist-label">Artist</div>
+            </div>
+        </div>
+
+        <h2 style="color: white; margin-bottom: 30px; background:#121212; font-size: 24px; font-weight: 800; padding-top: 15px;">Popular radio</h2>
+        <div class="popular-albums">
+            <!-- Artist 1 -->
+            <div class="albums-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKV8kPgt5NXDoKIXFolc6LwqafzX27v5Mjaw&s" class="albums-img">
+                <div class="artist-name">Pritam</div>
+                <div class="artist-label">Artist</div>
+            </div>
+            
+            <!-- Add 4 more artists with same structure -->
+            <!-- Artist 2 -->
+            <div class="artist-card">
+                <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/4PULA4EFzYTrxYvOVlwpiQ/de" class="albums-img">
+                <div class="artist-name">Karan Aujla</div>
+                <div class="artist-label">Artist</div>
+            </div>
+
+            <!-- Artist 3 -->
+            <div class="artist-card">
+                <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/2FKWNmZWDBZR4dE5KX4plR/de" class="albums-img">
+                <div class="artist-name">Atif Aslam</div>
+                <div class="artist-label">Artist</div>
+            </div>
+
+            <!-- Artist 4 -->
+            <div class="artist-card">
+                <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/1n9EM0Y4A89vuRiA93gSS9/en" class="albums-img">
+                <div class="artist-name">Arijit Singh</div>
+                <div class="artist-label">Artist</div>
+            </div>
+
+            <!-- Artist 5 -->
+            <div class="artist-card">
+                <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/radio/artist/2oSONSC9zQ4UonDKnLqksx/en" class="albums-img">
+                <div class="artist-name">Diljit Dosanjh </div>
+                <div class="artist-label">Artist</div>
+            </div>
+        </div>
+
+        <h2 style="color: white; margin-bottom: 30px; background:#121212; font-size: 24px; font-weight: 800; padding-top: 15px;">Featured Charts</h2>
+        <div class="popular-albums">
+            <!-- Artist 1 -->
+            <div class="albums-card">
+                <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS4XdPGfVbPRWGh1E6FEJxsyP2QZW412eosIxmlEPappP9ROYIL" class="albums-img">
+                <div class="artist-name">Pritam</div>
+                <div class="artist-label">Artist</div>
+            </div>
+            
+            <!-- Add 4 more artists with same structure -->
+            <!-- Artist 2 -->
+            <div class="artist-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCx726VmfbuAO4RIxfWKkky0UKOvYHKRenQQ&s" class="albums-img">
+                <div class="artist-name">Karan Aujla</div>
+                <div class="artist-label">Artist</div>
+            </div>
+
+            <!-- Artist 3 -->
+            <div class="artist-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSexr02KpgiqaTxqCAmfDm4zFz9oanWjo8ztLfK2y4pEeo0Qp1NbJKODeMv-4ZSjszawio&usqp=CAU" class="albums-img">
+                <div class="artist-name">Atif Aslam</div>
+                <div class="artist-label">Artist</div>
+            </div>
+
+            <!-- Artist 4 -->
+            <div class="artist-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQJ76dgBm9gLBL4GQWcyfjoyCt7LePXAiyrw&s" class="albums-img">
+                <div class="artist-name">Arijit Singh</div>
+                <div class="artist-label">Artist</div>
+            </div>
+
+            <!-- Artist 5 -->
+            <div class="artist-card">
+                <img src="https://charts-images.scdn.co/assets/locale_en/viral/daily/region_us_default.jpg" class="albums-img">
+                <div class="artist-name">Diljit Dosanjh </div>
+                <div class="artist-label">Artist</div>
+            </div>
+        </div>
+
+        <h2 style="color: white; margin-bottom: 30px; background:#121212; font-size: 24px; font-weight: 800; padding-top: 15px;">WRAPPED has arrived</h2>
+        <div class="popular-albums">
+            <!-- Artist 1 -->
+            <div class="albums-card">
+                <img src="https://i.scdn.co/image/ab67616d0000b273e46e7c9f477b2bc0c41688c8" class="albums-img">
+                <div class="artist-name">Pritam</div>
+                <div class="artist-label">Artist</div>
+            </div>
+            
+            <!-- Add 4 more artists with same structure -->
+            <!-- Artist 2 -->
+            <div class="artist-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdFrpRDE5AyZqWvS_i5FCH5giHLZzb0Ipi7g&s" class="albums-img">
+                <div class="artist-name">Karan Aujla</div>
+                <div class="artist-label">Artist</div>
+            </div>
+
+            <!-- Artist 3 -->
+            <div class="artist-card">
+                <img src="https://i.scdn.co/image/ab6761610000e5ebc40600e02356cc86f0debe84" class="albums-img">
+                <div class="artist-name">Atif Aslam</div>
+                <div class="artist-label">Artist</div>
+            </div>
+
+            <!-- Artist 4 -->
+            <div class="artist-card">
+                <img src="https://i.scdn.co/image/ab6761610000e5eb5ba2d75eb08a2d672f9b69b7" class="albums-img">
+                <div class="artist-name">Arijit Singh</div>
+                <div class="artist-label">Artist</div>
+            </div>
+
+            <!-- Artist 5 -->
+            <div class="artist-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJI_4vK6CeyUJE1a__SBgRRBLPXUw8ZvkIwQ&s" class="albums-img">
+                <div class="artist-name">Diljit Dosanjh </div>
+                <div class="artist-label">Artist</div>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
